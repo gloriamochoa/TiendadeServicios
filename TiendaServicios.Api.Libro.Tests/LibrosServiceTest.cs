@@ -119,7 +119,9 @@ namespace TiendaServicios.Api.Libro.Tests
         //este metodo sirve para probar guardar un libro en una base de datos en memoria con UseInMemoryDatabase
         [Fact]
         public async void GuardarLibro() {
-            System.Diagnostics.Debugger.Launch();
+            
+            //este test es para unit test libro y la sgte linea sirve para hacer debug a todo el metodo
+           // System.Diagnostics.Debugger.Launch();
            
             
             var options = new DbContextOptionsBuilder<ContextoLibreria>()
