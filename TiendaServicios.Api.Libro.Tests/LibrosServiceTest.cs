@@ -21,6 +21,7 @@ namespace TiendaServicios.Api.Libro.Tests
 
         private IEnumerable<LibreriaMaterial> ObtenerDataPrueba()
         {
+            //este metodo es para llenar con data de prueba genfu
 
             A.Configure<LibreriaMaterial>()
                 .Fill(x => x.Titulo).AsArticleTitle()
